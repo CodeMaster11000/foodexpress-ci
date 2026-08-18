@@ -2,10 +2,10 @@ pipeline {
     agent any
     stages {
         stage('Build') {
-            steps { sh 'pip install pytest' }
+            steps { sh 'python3 -m pip install pytest' }
         }
         stage('Test') {
-            steps { sh 'pytest' }
+            steps { sh 'python3 -m pytest' }
         }
     }   
 }
