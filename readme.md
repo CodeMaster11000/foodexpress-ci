@@ -1,1 +1,1 @@
-Hey this is a readme file i made for testing purposes
+This is a basic repo for testing and learning purpose for basic DevOps.
